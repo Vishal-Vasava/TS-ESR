@@ -8,17 +8,21 @@
 #  Enterprise Service Reusability 
 - 
 
-git remote add origin https://github.com/Vishal-Vasava/TS-ESR.git
 
-…or create a new repository on the command line
+
+
+## Repo Creation Time Commands: 
+
+### …or create a new repository on the command line
 echo "# TS-ESR" >> README.md
 git init
-git add README.mdgit pull origin main
+git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Vishal-Vasava/TS-ESR.git
 git push -u origin main
-…or push an existing repository from the command line
+
+### …or push an existing repository from the command line
 git remote add origin https://github.com/Vishal-Vasava/TS-ESR.git
 git branch -M main
 git push -u origin main
